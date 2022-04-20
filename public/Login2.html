@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea8cfd2902.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Safecss.css">
+    <title>Login</title>
+</head>
+
+<body class="body2">
+    <div class="container2">
+        <div class="forma-container">
+            <div class="login">
+                <form action="" id="form_login" class="log">
+                    <h2 class="titulo">Login</h2>
+                    <div class="input-campo">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="usuario" placeholder="Usuário">
+                    </div>
+                    <div class="input-campo">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+
+                     <input type="submit" onclick="entrar()" value="Login" class="btn">
+ 
+                    <p class="social">Ou faça login com suas redes sociais!</p>
+                    <div class="midia">
+                        <a href="#" class="icon">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </form>
+
+                <form action="" id="form_cadastroSimples" class="cad">
+                    <h2 class="titulo">Cadastrar</h2>
+                    <div class="input-campo">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="nome_resp" placeholder="Nome">
+                    </div>
+                    <div class="input-campo">
+                        <i class="fa fa-envelope"></i>
+                        <input type="text" name="email" placeholder="E-mail Comercial">
+                    </div>
+                    <div class="input-campo">
+                        <i class="fa fa-phone"></i>
+                        <input type="text" name="telefone" placeholder="Telefone">
+                    </div>
+                    <div class="input-campo">
+                        <i class="fa fa-building"></i>
+                        <input type="text" name="nome_empresa" placeholder="Empresa">
+                    </div>
+                    <div class="input-campo text">
+                        <i class="fa fa-comment"></i>
+                        <textarea name="servico" id="texto" cols="400" rows="10"
+                            placeholder="Quais as necessidades da sua empresa com os nossos serviços?"></textarea>
+                    </div>
+                    <input type="submit" onclick="cadastrarSimples()" value="Enviar" class="btn">
+
+                    <p class="social">Ou se cadastre com suas redes sociais!</p>
+                    <div class="midia">
+                        <a href="#" class="icon">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="painel">
+            <div class="paine painelesquerda">
+                <div class="contente">
+                    <h3>É novo aqui?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rem similique repellat tempore facilis! Quibusdam hic.
+                    </p>
+                    <button class="btn transpa" id="cadastre">Cadastre-se</button>
+                </div>
+                <img src="Imagens/undraw_security_re_a2rk.svg" class="image" alt="">
+            </div>
+
+            <div class="paine paineldireita">
+                <div class="contente">
+                    <h3>É um de nós?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rem similique repellat tempore facilis! Quibusdam hic.
+                    </p>
+                    <button class="btn transpa" id="logue">Login</button>
+                </div>
+                <img src="Imagens/undraw_multitasking_hqg3.svg" class="image" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+<script src="script.js"></script>
+<script src="move.js"></script>

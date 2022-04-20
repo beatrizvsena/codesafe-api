@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Safecss.css">
+    <title>CodeSafe</title>
+</head>
+<body>
+    <section class="fundo">
+        <div class="header">
+            <!-- <img src="logo.png" class="logo"> -->
+            <h2 class="logo">CodeSafe</h2>
+            <i class="fa fa-bars x2" onclick="menuToggle()"></i>
+            <ul id="navegar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="Somos.html">Quem Somos</span></a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Dashboard.html">Gráfico</a></li>
+                <li><a href="Index.html">Sair</a></li>
+                <i class="fa fa-times x2" onclick="menuToggle()"></i>
+            </ul>
+        </div>
+        <div class="banner">
+            <h2>CodeSafe</h2>
+            <h3>Monitoramento e segurança para sua empresa</h3>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Necessitatibus aspernatur sint quas, fugit dicta cumque quidem omnis 
+                reiciendis explicabo molestiae iste dolores minima unde vel cupiditate 
+                quaerat obcaecati neque libero?
+            </p>
+        </div>
+        <div class="botao">
+            <a href="Somos.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Venha nos Conhecer
+            </a>
+        </div>
+        <img src="Cadeado.png" class="cadeado">
+        <video autoplay muted class="vidi">
+            <source src="transpa.mp4" type="video/mp4">
+        </video>
+        <div class="circle"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </section>
+    <script type="text/javascript">
+        function menuToggle(){
+            var element = document.getElementById("navegar");
+            element.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
